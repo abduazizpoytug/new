@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(22, 26, 77);
+}
+
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    display: flex;
+}
+.logo{
+    position: relative;
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    padding: 10px;
+    top: 25px;
+}
+
+.ul{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    top: 25px;
+    left: 550px;
+}
+
+.ul li{
+    position: relative;
+    margin-left: 50px;
+    font-size: 19px;
+}
+
+.ul a{
+    text-decoration: none;
+    color: blue;
+    transition: 1s;
+    border-bottom: 2px solid rgb(22, 26, 77);
+}
+
+.ul a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.join{
+    text-decoration: none;
+    position: absolute;
+    left: 1170px;
+    color: rgb(22, 26, 77);
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    top: 16px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    transition: 1s;
+}
+.join:hover{
+    background-color: rgb(22, 26, 77);
+    color: blue;
+}
+
+.headd{
+    display: flex;
+}
+.texts{
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+.texts h1{
+    color: blue;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.texts p{
+    position: relative;
+    top: 20px;
+    color: rgb(0, 0, 161);
+    line-height: 25px;
+    letter-spacing: 5px;
+}
+.texts a{
+    position: relative;
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 3px;
+    top: 40px;
+    padding: 10px;
+    transition:  1s;
+    border-bottom: 2px solid rgb(22, 26, 77);
+}
+.texts a:hover{
+    border-bottom: 2px solid blue;
+}
